@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.chalbi_firas_mesure_glycemie"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.chalbi_firas_mesure_glycemie"

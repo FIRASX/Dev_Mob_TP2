@@ -15,18 +15,20 @@
         android:gravity="center"
         android:padding="30dp"
         android:text="Mesure de niveau de glycémie"
-        android:textColor="#000000"
+        android:textColor="@color/red"
         android:textSize="25sp"
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/tvAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Votre age:"
+        android:text="Votre âge:"
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="#000000"
         android:paddingTop="20dp"/>
+
     <SeekBar
         android:id="@+id/sbAge"
         android:layout_width="match_parent"
@@ -42,7 +44,9 @@
         android:textStyle="bold"
         android:textColor="#000000"
         android:paddingTop="20dp"/>
+
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -87,5 +91,13 @@
         android:text="CONSULTER"
         android:textSize="18sp" />
 
+    <TextView
+        android:id="@+id/tvResultat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Result"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:paddingTop="20dp"/>
 
 </LinearLayout>
